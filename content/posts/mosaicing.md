@@ -1,12 +1,13 @@
 ---
 title: Mosaicing with Processing
 slug: mosaicing
-date_published: 2020-01-03T18:28:43.000Z
-date_updated: 2020-01-03T18:30:56.000Z
+date: 2020-01-03T18:28:43.000Z
+author: Martin
+lastmod: 2020-01-03T18:30:56.000Z
 tags:
 - Images
 - Manipulation
-excerpt: After a long time, I tried processing again. I wanted to create a mosaic-like color effect on architectural images. I created two iterations.
+description: After a long time, I tried processing again. I wanted to create a mosaic-like color effect on architectural images. I created two iterations.
 ---
 
 After a long time, I tried [processing](https://processing.org/) again. The last time I used processing was many years ago when we did some simple visualizations for a few DJ sets. And even though there is this cool new kid on the block - [p5.js](https://p5js.org/) - I decided to go with what I somewhat know and used the conventional processing tool. Both, processing and p5.js, are maintained by the [Processing Foundation](https://processingfoundation.org/). [This is their GitHub account](https://github.com/processing).

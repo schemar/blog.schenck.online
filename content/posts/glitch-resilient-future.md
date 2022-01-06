@@ -1,12 +1,13 @@
 ---
 title: Glitch Resilient Future
 slug: glitch-resilient-future
-date_published: 2020-07-26T10:32:06.000Z
-date_updated: 2020-07-26T10:32:06.000Z
+date: 2020-07-26T10:32:06.000Z
+author: Martin
+lastmod: 2020-07-26T10:32:06.000Z
 tags:
 - Images
 - Manipulation
-excerpt: In this post I write about the creation of posters on the topic "resilient future". For that, I created a glitching algorithm in processing.
+description: In this post I write about the creation of posters on the topic "resilient future". For that, I created a glitching algorithm in processing.
 ---
 
 I always wanted to write code that distorts images. I gave it a first shot with [processing](https://processing.org/).

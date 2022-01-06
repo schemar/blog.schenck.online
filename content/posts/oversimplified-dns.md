@@ -1,12 +1,13 @@
 ---
 title: Oversimplified DNS
 slug: oversimplified-dns
-date_published: 2020-03-08T17:36:15.000Z
-date_updated: 2020-08-23T16:34:43.000Z
+date: 2020-03-08T17:36:15.000Z
+author: Martin
+lastmod: 2020-08-23T16:34:43.000Z
 tags:
 - Oversimplified
 - Software
-excerpt: Our computers access a server via the server's IP address. Humans use domains instead. How do our browsers know the IP of a domain? The answer is DNS.
+description: Our computers access a server via the server's IP address. Humans use domains instead. How do our browsers know the IP of a domain? The answer is DNS.
 ---
 
 Our computers access servers on the internet via the servers' respective IP address. For convenience, however, we use domains as they are easier for us to remember. So how do our browsers know which IP to contact when we ask for a domain? The answer is the Domain Name System or, in short, DNS.

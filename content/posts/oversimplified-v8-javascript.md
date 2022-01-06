@@ -1,8 +1,9 @@
 ---
 title: Oversimplified V8 (JavaScript)
 slug: oversimplified-v8-javascript
-date_published: 1970-01-01T00:00:00.000Z
-date_updated: 2020-10-05T14:53:31.000Z
+date: 1970-01-01T00:00:00.000Z
+author: Martin
+lastmod: 2020-10-05T14:53:31.000Z
 draft: true
 ---
 

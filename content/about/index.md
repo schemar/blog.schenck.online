@@ -1,7 +1,6 @@
 ---
 title: About me
-date_published: 2019-12-29T15:29:56.000Z
-date_updated: 2021-05-08T20:29:44.000Z
+slug: about-me
 ---
 
 Martin is a software engineer at [futurice](https://www.futurice.com/).

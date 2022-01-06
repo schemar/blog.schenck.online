@@ -1,12 +1,13 @@
 ---
 title: Generating Images
 slug: generating-images
-date_published: 2019-12-29T17:12:00.000Z
-date_updated: 2020-01-03T18:09:36.000Z
+date: 2019-12-29T17:12:00.000Z
+author: Martin
+lastmod: 2020-01-03T18:09:36.000Z
 tags:
 - Generative
 - Images
-excerpt: I looked into quil to generate images with clojure. I present some of the outcomes.
+description: I looked into quil to generate images with clojure. I present some of the outcomes.
 ---
 
 Last year, around the same time, I looked into [quil](http://www.quil.info/) to generate images with [clojure](https://clojure.org/). You can find the code [on GitHub](https://github.com/schemar/generative). As you can see there, I have no experience with clojure and thus the code is not very readable.

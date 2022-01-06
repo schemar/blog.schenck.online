@@ -1,8 +1,9 @@
 ---
 title: Oversimplified Database Indexes
 slug: oversimplified-database-indexes
-date_published: 1970-01-01T00:00:00.000Z
-date_updated: 2020-09-07T19:47:45.000Z
+date: 1970-01-01T00:00:00.000Z
+author: Martin
+lastmod: 2020-09-07T19:47:45.000Z
 tags:
 - Software
 - Oversimplified

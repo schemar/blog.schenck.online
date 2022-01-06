@@ -57,8 +57,8 @@ paginate = 5
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
-        url = "/about"
+        name = "About me"
+        url = "/about-me"
       [[languages.en.menu.main]]
         identifier = "rss"
         name = "RSS"

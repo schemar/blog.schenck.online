@@ -2,6 +2,9 @@
 /public/
 /resources/_gen/
 
+# Generated files by ox-hugo (except for original posts)
+/content/
+
 # Temporary
 *~
 \#*\#

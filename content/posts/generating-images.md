@@ -8,39 +8,77 @@ tags:
 - Generative
 - Images
 description: I looked into quil to generate images with clojure. I present some of the outcomes.
+cover: /images/0005-b-1.png
 ---
 
 Last year, around the same time, I looked into [quil](http://www.quil.info/) to generate images with [clojure](https://clojure.org/). You can find the code [on GitHub](https://github.com/schemar/generative). As you can see there, I have no experience with clojure and thus the code is not very readable.
 
-Anyways, I generated some images with random components. The ones I like the most are the "Floating Triangles".
+Anyway, I generated some images with random components. The ones I like the most are the "Floating Triangles".
 
-![](/images/0004.png)
+<figure>
+  <div style="display: flex; flex-direction: row; justify-content: center;">
+    <div style="flex: 1 1 0%;">
+      {{< figure src="/images/0004.png" position="left" >}}
+    </div>
+    <div style="flex: 1 1 0%; margin-left: 0.75em;">
+      {{< figure src="/images/0004-b.png" position="right" >}}
+    </div>
+    <div style="flex: 1 1 0%; margin-left: 0.75em;">
+      {{< figure src="/images/0004-a.png" position="right" >}}
+    </div>
+  </div>
+  <figcaption style="width: 100%; text-align: center; margin-top: -15px;">
+    Floating Triangles
+  </figcaption>
+</figure>
 
-![](/images/0004-b.png)
-
-![](/images/0004-a.png)
-
-Floating Triangles
 For the "Breaking Triangles" it depends extremely on the colors, I think. I prefer two colors over three.
 
-![](/images/0005-b.png)
+<figure>
+  <div style="display: flex; flex-direction: row; justify-content: center;">
+    <div style="flex: 1 1 0%;">
+      {{< figure src="/images/0005-b.png" position="left" >}}
+    </div>
+    <div style="flex: 1 1 0%; margin-left: 0.75em;">
+      {{< figure src="/images/0005-a.png" position="right" >}}
+    </div>
+    <div style="flex: 1 1 0%; margin-left: 0.75em;">
+      {{< figure src="/images/0005.png" position="right" >}}
+    </div>
+  </div>
+  <figcaption style="width: 100%; text-align: center; margin-top: -15px;">
+    Breaking Triangles
+  </figcaption>
+</figure>
 
-![](/images/0005-a.png)
-
-![](/images/0005.png)
-
-Breaking Triangles
 Below are the earliest attempts. I was first trying to figure out how clojure works and then how quil works.
 
-![](/images/0003.png)
+<figure>
+  <div style="display: flex; flex-direction: row; justify-content: center;">
+    <div style="flex: 1 1 0%;">
+      {{< figure src="/images/0003.png" position="left" >}}
+    </div>
+    <div style="flex: 1 1 0%; margin-left: 0.75em;">
+      {{< figure src="/images/0003-a.png" position="right" >}}
+    </div>
+  </div>
+  <figcaption style="width: 100%; text-align: center; margin-top: -15px;">
+    Broken Circle
+  </figcaption>
+</figure>
 
-![](/images/0003-a.png)
-
-Broken Circle
 A circle with differently (but similarly) colored segments was my first sketch.
 
-![](/images/0002.png)
-
-![](/images/0002-a.png)
-
-Circle in Segments
+<figure>
+  <div style="display: flex; flex-direction: row; justify-content: center;">
+    <div style="flex: 1 1 0%;">
+      {{< figure src="/images/0002.png" position="left" >}}
+    </div>
+    <div style="flex: 1 1 0%; margin-left: 0.75em;">
+      {{< figure src="/images/0002-a.png" position="right" >}}
+    </div>
+  </div>
+  <figcaption style="width: 100%; text-align: center; margin-top: -15px;">
+    Circle in Segments
+  </figcaption>
+</figure>

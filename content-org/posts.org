@@ -3,6 +3,45 @@
 #+hugo_auto_set_lastmod: t
 #+author:
 
+* DONE Recording Your Screen And Sharing The Result
+CLOSED: [2022-01-25 Tue 22:08]
+:PROPERTIES:
+:EXPORT_FILE_NAME: recording-and-sharing-a-screen-recording
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :author Martin
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-01-25 Tue 22:08]
+:END:
+
+There are multiple steps to take when recording and sharing content from your screen.
+Let's have a /very/ quick look.
+#+hugo: more
+
+** Record
+When you want to do a recording, you may want to record more than just a video of your screen.
+With [[https://obsproject.com/][OBS Studio]] you can record your screen, have your face in a corner captured by your webcam, record the sound of your desktop, /and/ record the sound of your microphone.
+This means you can show any video with sound while also talking over it, etc.
+Possibilities with OBS Studio are endless.
+
+** Clean up
+While OBS Studio includes a few filters and an option for VST2 plug-ins, in my case it was easier to use [[https://ffmpeg.org/][ffmpeg]] for clean-up.
+I had a high-pitched noise on my voice-over, created by my microphone.
+I cut the highest and lowest audio frequencies:
+
+#+BEGIN_SRC shell
+ffmpeg -i input.mp4 -filter:a "highpass=f=200, lowpass=f=3000" output.mp4;
+#+END_SRC
+(Source: https://bytefreaks.net/gnulinux/apply-low-pass-and-high-pass-frequency-filter-using-ffmpeg)
+
+There is obviously a lot more you can do with =ffmpeg=.
+It should be easy to find what you need online.
+
+** Compress
+Depending on where you want to share your video, there may be limitations.
+For example, there might be a limitation on the total size of the recording.
+
+I think [[https://handbrake.fr/][HandBrake]] is a tremendous tool for this job.
+In my case, it's usually sufficient to use a "Very Fast" preset where I reduce the quality a few notches (meaning a higher =RF= number).
 
 * TODO Oversimplified Database Indexes :Software:Oversimplified:
 :PROPERTIES:
